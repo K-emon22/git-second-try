@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+
+    <style>
+        .button{background-color: bisque; font-size: medium;}
+        *{margin: 0px;}
+        .paragraph{background-color: blue; border: 10px solid tomato; border-top: none; border-radius: 5px; margin-left: 20px; margin: 20px 10px 30px 40px; text-align:center; padding: 30px;}
+        p{color: hotpink;}
+        #fifth{color: orangered; font-size: 50px;}
+        .line, .off{background-color: peachpuff; text-align: center; font-size: 20px; color:rgb(252, 252, 248); -webkit-text-stroke: 1px black;}
+        .bold{font-weight: bolder;}
+        input[type="text"]{color: aquamarine; background-color: rgb(255, 255, 0);}
+        .third{color: blueviolet;}
+        .lorem{color: brown;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="Basic">CSS is interesting</h1>
+    </header>
+    <li></li>
+    <h3 class="off">Explore mixed selectors</h3>
+    <p class="line">My second line CSS</p>
+    <p class="bold">My <span class="third">third line</span> CSS</p>
+    <p class="line bold">My forth line CSS</p>
+    <p id="fifth">My fifth line CSS</p>
+    <div>
+        <ol>
+            <li class="hidden">element selectors</li>
+            <li>id selectors</li>
+            <li>class selectors</li>
+            <li>universal selectors</li>
+        </ol>
+    </div>
+    <div>
+        <form action="">
+            <input type="text" name="" id="" placeholder="Enter your name">
+            <input type="password" name="" id="" placeholder="enter your password">
+        </form>
+    </div>
+    <div class="lorem">
+        <h4>My last line CSS</h4>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae qui saepe voluptatum harum nisi, <span class="dola">assumenda dolor</span> veritatis sapiente impedit. Magnam, nostrum rerum animi delectus libero veritatis nesciunt tempora eum deserunt fugiat illo corrupti doloribus nulla dolorem deleniti cum corporis ea? Cum placeat odio ut expedita a. Sed, in cupiditate.</p>
+    </div>
+    <img src="wp5305623-shoya-ishida-wallpapers.jpg" height="50px" width="70px" alt="picture is coming soon">
+    <div>
+        <button class="button">next page</button>
+    </div>
+    <form action="">
+        <input type="text" name="" id="">
+        <input type="password" name="" id="">
+    </form>
+    <div>..</div>
+</body>
+</html>
